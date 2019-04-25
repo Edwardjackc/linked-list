@@ -1,29 +1,46 @@
 * { 
   box-sizing: border-box;
-  border: 1px, red, solid; 
+  border:solid red 1px; 
 }
 
 body {
   font-family: 'Open Sans', sans-serif;
   height: 100vh;
   margin:0;
-  display:flex
+  display:grid;
+  grid-template-rows:2;
 }
 
 .container__aside {
-  display:flex
+  display:flex;
+  background-color:#455A64;
+  justify-content: center;
 }
 
 .aside__form {
   display:flex;
-  justify-content: space-around
+  flex-direction:column;
+  justify-content: space-evenly;
 }
 
 .aside__header { 
 font-size:1em;
+height: 30px;
 }
 
 .aside__input {
   height:30px;
   width:150px;
+}
+
+.aside__btn {
+  background-color:#FFC107;
+  color:#ffffff;
+  height:30px;
+  width:150px;
+}
+
+.container__main {
+  background-color: #D0D8DC;
+  display:flex;
 }
