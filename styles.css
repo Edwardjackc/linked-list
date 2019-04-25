@@ -1,0 +1,29 @@
+* { 
+  box-sizing: border-box;
+  border: 1px, red, solid; 
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  height: 100vh;
+  margin:0;
+  display:flex
+}
+
+.container__aside {
+  display:flex
+}
+
+.aside__form {
+  display:flex;
+  justify-content: space-around
+}
+
+.aside__header { 
+font-size:1em;
+}
+
+.aside__input {
+  height:30px;
+  width:150px;
+}
